@@ -79,4 +79,12 @@ export default {
 .links {
   padding-top: 15px;
 }
+@media only screen and (max-width: 640px) {
+  .title {
+    font-size: 3em;
+  }
+  .subtitle {
+    font-size: 2em;
+  }
+}
 </style>

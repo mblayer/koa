@@ -8,7 +8,7 @@
 html {
   font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
