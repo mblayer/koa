@@ -15,6 +15,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: #001e32;
 }
 
 *,
@@ -35,5 +36,13 @@ html {
 
 .button--green:hover {
   color: #fff;
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 50px;
+  color: #e5cf3e;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 </style>
