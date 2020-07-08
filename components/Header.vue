@@ -50,7 +50,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #001e32;
+  background-color: #000e15;
 }
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,

@@ -1,17 +1,18 @@
 <template>
   <div class="container">
     <Header></Header>
-    <Brackets></Brackets>
+    <BracketsImage></BracketsImage>
   </div>
 </template>
 
 <script>
 import Header from '~/components/Header.vue'
-import Brackets from '~/components/Brackets.vue'
+import BracketsImage from '~/components/BracketsImage.vue'
+
 export default {
   components: {
     Header,
-    Brackets,
+    BracketsImage,
   },
 }
 </script>
