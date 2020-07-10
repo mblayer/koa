@@ -32,6 +32,16 @@
         Discord
       </a>
     </div>
+    <div class="vermas">
+      <a
+        v-scroll-to="'#brackets'"
+        href="#"
+        rel="noopener noreferrer"
+        class="button--ver-mas"
+      >
+        <font-awesome-icon class="icon" :icon="['fas', 'arrow-down']" />
+      </a>
+    </div>
   </div>
 </template>
 <script>
@@ -64,12 +74,39 @@ export default {
 .links {
   padding-top: 15px;
 }
+.button--ver-mas {
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  display: block;
+  position: relative;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #e5cf3e;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  color: #e5cf3e;
+  margin-top: 3vh;
+}
+
+.button--ver-mas:hover {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
 @media only screen and (max-width: 640px) {
   .title {
-    font-size: 3em;
+    font-size: 2em;
   }
   .subtitle {
-    font-size: 2em;
+    font-size: 1em;
+  }
+  .button--ver-mas {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
   }
 }
 </style>
